@@ -24,6 +24,7 @@
 .panel-menu {
 	max-width: 150px;
 	margin: 0 auto;
+	list-style: none;
 }
 
 .panel-main {
