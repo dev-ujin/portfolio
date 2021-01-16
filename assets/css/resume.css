@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Archivo&family=Grandstander:wght@100&family=IBM+Plex+Serif:wght@100&family=Xanh+Mono&display=swap");
+
+.panel-content-inner {
+	background-color: rgba(255, 255, 255, 0.7);
+	max-width: 90%;
+	min-width: 80%;
+	height: auto;
+}
+
+.button {
+	display: inline-block;
+	width: auto;
+	text-align: center;
+	cursor: pointer;
+}
+
+.download {
+	float:right;
+}
+
+.resume-header {
+	display: table;
+	margin-top: 20;
+	width: 100%;
+}
+
+.profile-title {
+	display: table-cell;
+}
+
+.name {
+	color: #000;
+	font-family: 'Abril Fatface', cursive;
+	font-size: 50px;
+	font-weight: 800;
+	margin-bottom: 0 !important;
+	text-align: center;
+}
+
+.objective {
+	display: block;
+	font-family: 'Archivo', sans-serif;
+	font-size: 1.3rem;
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+.resume-body {
+	display: inline-flex;
+	width: 100%;
+}
+
+.resume-body-left {
+	width: 35%;
+	padding: 5px;
+}
+
+.contact-icon {
+	margin: 0 5px;
+	display: inline-block;
+	font-size: 1.3rem;
+}
+
+.language .item li {
+	text-align: center;
+}
+
+.language .item .item-content-list {
+	display: inline-flex;
+}
+
+.language .item .item-content-list .language-image {
+	width: 60px;
+	height: 50px;
+}
+
+.language .item .item-content-list .level {
+	font-size: 1rem;
+	line-height: 3.5rem;
+}
+
+.language .item .caption {
+	font-size: 1rem;
+	font-family: 'Archivo', sans-serif;
+}
+
+.resume-body-right {
+	width: 65%;
+	padding: 5px;
+}
+.resume-body-right .item {
+	padding: 15 0;
+}
+
+.resume-body-right .item .item-content {
+	display: inline-flex;
+}
+
+.resume-body-right .item .item-content .item-content-left {
+	display: block;
+	width: 25%;
+	font-size: 1rem;
+	font-style: italic;
+	padding: 5 3;
+}
+
+.resume-body-right .item .item-content .item-content-right {
+	display: block;
+	width: 75%;
+}
+
+.resume-body-right .item .item-content .item-content-right .item-title {
+	font-size: 1.5rem;
+	font-weight: 700;
+	font-family: 'Archivo', sans-serif;
+}
+
+.skill .skill-image {
+	display: inline-table;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 80px;
+	height: 80px;
+	border-radius: 20px 20px;
+	margin: 3px;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+
+.skill .skill-image:hover .skill-label {
+	visibility: visible;
+}
+
+.skill .skill-image .skill-label {
+	width: 80px;
+	height: 80px;
+	visibility: hidden;
+	background-color: rgba(0, 0, 0, 0.8);
+	border-radius: 20px 20px;
+	color: #ffffff;
+	padding: 10px;
+	align-items: center;
+	text-align: center;
+	font-size: 0.9rem;
+}
+
+.category {
+	display: block;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+	background-color: #ffffff;
+	border-radius: 16px;
+	padding: 10px;
+	margin: 15 5;
+}
+
+.category .category-title {
+	font-weight: bold;
+	font-size: 1.5rem;
+	text-align: center;
+	font-family: 'Abril Fatface', cursive;
+	margin: 10 0;
+}
+
+.category .item-container {
+	display: block;
+	font-size: 1.2rem;
+}
+
+.category .item-container .item-content {
+	font-family: 'Archivo', sans-serif;
+	width: 100%;
+}
