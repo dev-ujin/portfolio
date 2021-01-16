@@ -5,7 +5,7 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 html {
@@ -37,10 +37,8 @@ body, html {
 
 .button {
 	background-color: rgba(39, 29, 46, 0.8);
-	border-radius: 16px;
     list-style: none;
 	padding: 10px;
-    margin: 10px 0;
 	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
 }
 
@@ -56,7 +54,13 @@ body, html {
 }
 
 .button i {
-    margin-right: 7px;
 	font-size: 25px;
 }
 
+.button-sm {
+	display: inline-block;
+	width: 3%;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 40%;
+}
