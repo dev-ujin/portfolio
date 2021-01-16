@@ -8,12 +8,18 @@ body {
 	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-body, html {margin: 0; padding: 0; height:100%;}
+html {
+	line-height: 1.5;
+}
+
+body, html {
+	margin: 0; padding: 0; min-height:100%;
+}
 
 .panel-main {
 	display: table;
 	width: 100%;
-	height: 100%;
+	height: -webkit-fill-available;
 	background-color: rgba(0, 0, 0, 0.4);
 }
 
