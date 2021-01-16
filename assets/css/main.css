@@ -59,8 +59,8 @@ body, html {
 
 .button-sm {
 	display: inline-block;
-	width: 3%;
+	width: 4%;
 	text-align: center;
 	cursor: pointer;
-	border-radius: 30%;
+	border-radius: 20%;
 }
