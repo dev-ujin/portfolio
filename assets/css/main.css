@@ -12,10 +12,6 @@ html {
 	line-height: 1.5;
 }
 
-body, html {
-	margin: 0; padding: 0; height:100%;
-}
-
 .panel-main {
 	display: table;
 	width: 100%;
