@@ -99,7 +99,7 @@
 	width: 25%;
 	font-size: 1rem;
 	font-style: italic;
-	padding: 5px 3px;
+	padding: 5px 10px;
 }
 
 .resume-body-right .item .item-content .item-content-right {
@@ -118,8 +118,8 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	width: 60px;
-	height: 60px;
+	width: 50px;
+	height: 50px;
 	border-radius: 20px 20px;
 	margin: 3px;
 	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
