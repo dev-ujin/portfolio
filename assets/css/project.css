@@ -90,7 +90,7 @@
 
 .source {background-color: #838383;}
 .demo {border: 1px solid #dee5e7;}
-.source i {color: #ffffff;}
+.source i, .source {color: #ffffff;}
 .demo i {color: #000000;}
 .source:hover, .demo:hover {background-color: #242424;}
 .source:hover i, .source:hover a, .demo:hover i, .demo:hover a{color: #ffffff;}
